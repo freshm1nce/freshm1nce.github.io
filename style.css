@@ -1,46 +1,33 @@
 body {
-  font-family: Georgia;
-  font-size: 16px;
-  margin: 0 auto;   /* center content */
-  max-width: 800px; /* limit width */
-  line-height: 1.5;
-  padding-top: 32px;
-  padding-bottom: 32px;
+    margin: 0px;
 }
-
-/* BEGIN (write your solution here) */
-p {
-    margin-bottom: 12px;
-}
-
-h {
-    font-weight: 400;
-    padding-bottom: 0px;
+.container {
+    width: 100%;
+    max-width: 2550px;
+    height: 724px;
+    background-color: #6467ab;
+    padding-top: 80px;
+    padding-left: 101px;
+    padding-right: 101px;
+    margin: 0px;
+    display: flex;
 }
 
 h1 {
-    font-size: 36px;
+    font-family: 'Lobster', cursive;
+    font-size: 36pt;
 }
 
-h2 {
-    font-size: 32px;
-    border-bottom: solid 1px grey;
-    margin-bottom: 8px;
+@font-face {
+    font-family: 'Lobster';
+    src: url('Lobster-Regular.ttf') format("truetype");
+    font-style: normal;
+    font-weight: normal;   
 }
 
-h3 {
-    font-size: 20px;
-}
-#header {
-    text-align:center;
-    margin-bottom: 32px;
-}
-
-#footer {
-    margin-top: 64px;
-    text-align:center;
-}
-
-#main {
-    
+@font-face {
+    font-family: 'LatoReg';
+    src: url('Lato-Regular.ttf') format("truetype");
+    font-style: normal;
+    font-weight: normal;   
 }
