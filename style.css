@@ -1,21 +1,101 @@
-body {
-    margin: 0px;
-}
-.container {
-    width: 100%;
-    max-width: 2550px;
-    height: 724px;
-    background-color: #6467ab;
-    padding-top: 80px;
-    padding-left: 101px;
-    padding-right: 101px;
-    margin: 0px;
-    display: flex;
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 
-h1 {
-    font-family: 'Lobster', cursive;
-    font-size: 36pt;
+*,*::before,*::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,:active {outline: none;}
+a:focus,a:active {outline: none;}
+
+nav,footer,aside,header {display: block;}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea {font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img {vertical-align: top;}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 1 auto;
+}
+
+.container__row {
+    overflow: hidden;
+    margin: 0 0 0 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content__left {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 707px;
+}
+
+.left__padding {
+    padding: 50px 0 0 0;
+}
+
+.left__title {
+    background-color: #9ec4ea;
+    padding: 30px 50px;
+}
+
+.title__name {
+    margin: 100px 0 0 0;
+    font-size: 30.4pt;
+    font-family: 'Montserrat', sans-serif;
+    color: #4775b8;
+}
+
+.title__job {
+    margin: 70px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19.4pt;
+}
+
+.content__right {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #4775b7;
+}
+
+.right__img {
+    overflow: hidden;
+    max-width: 318px;
+    max-height: 318px;
+    height: 100%;
+    margin: 84px 0 0 32px;
 }
 
 @font-face {
