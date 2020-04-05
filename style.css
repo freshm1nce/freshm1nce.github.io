@@ -73,13 +73,13 @@ img {vertical-align: top;}
 .title__name {
     margin: 100px 0 0 0;
     font-size: 30.4pt;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'MontserratExtraBold', sans-serif;
     color: #4775b8;
 }
 
 .title__job {
     margin: 70px 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'OpenSansReg', sans-serif;
     font-size: 19.4pt;
 }
 
@@ -99,15 +99,15 @@ img {vertical-align: top;}
 }
 
 @font-face {
-    font-family: 'Lobster';
-    src: url('Lobster-Regular.ttf') format("truetype");
+    font-family: 'MontserratExtraBold';
+    src: url('Montserrat-ExtraBold.ttf') format("truetype");
     font-style: normal;
     font-weight: normal;   
 }
 
 @font-face {
-    font-family: 'LatoReg';
-    src: url('Lato-Regular.ttf') format("truetype");
+    font-family: 'OpenSansReg';
+    src: url('OpenSans-Regular.ttf') format("truetype");
     font-style: normal;
     font-weight: normal;   
 }
